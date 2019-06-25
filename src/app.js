@@ -1,11 +1,13 @@
 import React from 'react';
 
-export default function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>Hello, World!</p>
-      </header>
-    </div>
-  );
+import ToDo from './components/todo/todo.js';
+
+export default class App extends React.Component {
+  render() {
+    return (
+      <>
+        <ToDo />
+      </>
+    );
+  }
 }

@@ -5,7 +5,7 @@ import { When } from '../if';
 
 import CounterWithContext from '../counter/counter-using-context';
 import CounterContextProvider from '../context/counter-context';
-import { CounterContext } from '../context/counter-context';
+// import { CounterContext } from '../context/counter-context';
 import './todo.scss';
 
 class ToDo extends React.Component {
@@ -65,12 +65,14 @@ class ToDo extends React.Component {
             </CounterContextProvider>
           </div>
 
+          {/* form */}
           <div>
             <form onSubmit={this.addItem}>
               <input placeholder="Add To Do List Item" onChange={this.handleInputChange} />
             </form>
           </div>
 
+          {/* list  */}
           <div>
             <ul>
               {this.state.todoList

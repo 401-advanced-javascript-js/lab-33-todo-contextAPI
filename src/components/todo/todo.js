@@ -2,7 +2,7 @@ import React from 'react';
 
 import Counter from '../counter/counter';
 import AddItemForm from '../addItemForm/addItemForm';
-import ToDoList from '../ToDoList/toDoList';
+import ToDoList from '../toDoList/toDoList';
 
 import { ToDoContext } from '../context/todo-context';
 

@@ -1,22 +1,20 @@
 # ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 
-## Project Name
+## Todo List using React Context API
 
-### Author: Student/Group Name
+### Author: Jagdeep Singh
 
 ### Links and Resources
 
 - [submission PR](https://github.com/401-advanced-javascript-js/lab-33-todo-contextAPI/pull/1)
 - [travis](https://travis-ci.com/401-advanced-javascript-js/lab-33-todo-contextAPI)
-- [front-end](http://xyz.com) (when applicable)
+- [front-end](http://xyz.com)
 
 #### Documentation
 
-- [api docs](http://xyz.com) (API servers)
-- [jsdoc](http://xyz.com) (Server assignments)
-- [styleguide](http://xyz.com) (React assignments)
+- [styleguide](styleguide/index.html)
 
-### Modules
+<!-- ### Modules
 
 #### `modulename.js`
 
@@ -28,30 +26,18 @@ Usage Notes or examples
 
 ###### `bar(array) -> array`
 
-Usage Notes or examples
+Usage Notes or examples -->
 
 ### Setup
-
-#### `.env` requirements
-
-- `PORT` - Port Number
-- `MONGODB_URI` - URL to the running mongo instance/db
 
 #### Running the app
 
 - `npm start`
-- Endpoint: `/foo/bar/`
-  - Returns a JSON object with abc in it.
-- Endpoint: `/bing/zing/`
-
-  - Returns a JSON object with xyz in it.
 
 #### Tests
 
-- How do you run tests?
-- What assertions were made?
-- What assertions need to be / should be made?
+- How do you run tests? `npm test`
 
 #### UML
 
-Link to an image of the UML for your application and response to events
+![UML](assets/uml.jpeg)
